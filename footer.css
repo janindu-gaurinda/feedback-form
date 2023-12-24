@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.footer_page_main_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Use auto-fit and minmax for responsive columns */
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.footer_about {
+  padding: 1.25rem; /*20px*/
+}
+.open_hours {
+  padding: 1.25rem; /*20px*/
+}
+.footer_Contact {
+  padding:1.25rem; /*20px*/
+}
+.footer_Contact a{
+  text-decoration: none;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  padding: 0.188rem; /*3px*/
+}
+.footer_Contact a:hover{
+  background-color: gray;
+  color: black;
+}
+.footer_links {
+  padding: 1.25rem; /*20px*/
+}
+.footer_links a{
+  text-decoration: none;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  padding: 0.188rem; /*3px*/
+}
+.footer_links a:hover{
+  background-color: gray;
+  color: black;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .footer_page_main_container {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 360px) {
+  .footer_page_main_container {
+    grid-template-columns: auto;
+  }
+}

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .main_feedback_page_container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.feedback_post_container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    /* Adjust the number of columns as needed */
+    margin-top: 80px;
+    justify-content: center;
+    padding: 30px;
+    gap: 10px;
+    /* Add space between grid items */
+}
+
+.feedback_post_backgroung {
+    background-color: rgba(0, 0, 0, 0.699);
+    padding: 20px;
+}
+
+.feedback_post_backgroung h1 {
+    margin: 0;
+    /* Remove default margins on h1 elements */
+    border: 1px solid black;
+}
+.feedback_post_backgroung p {
+    
+    margin: 0;
+    margin: 30px;
+
+    /* Remove default margins on h1 elements */
+}
